@@ -1,11 +1,21 @@
 # NLA-Project
+We formulate the problem of Extractive Summarization as a Problem of Regression where we assign an importance score to every sentence in the input document.
 
-Saved embeddings can be found [here](https://drive.google.com/open?id=1IDFgrT8kXDSo-gocku1rARS0gRM3iWdz)
+Still under maintenance, intro, results and other details to be added.
 
-## Links to Colab notebooks:
+For Implementation Details on Modelling and saved Pretrained models, go [here](https://github.com/sayarghoshroy/Summarization).
+
+## Data 
+This project uses a part of the CNN/Daily mail dataset.
+- Our labelled data can be found [here](https://drive.google.com/drive/folders/1hNik2G9hdFf1NlnADgxxAxwrQEmDoEyq?usp=sharing)
+- Pretrained embeddings on our data can be found [here](https://drive.google.com/open?id=1IDFgrT8kXDSo-gocku1rARS0gRM3iWdz)
+- Trained infersent and fasttext models can be found [here](https://drive.google.com/open?id=1IDFgrT8kXDSo-gocku1rARS0gRM3iWdz)
+
+## Code
+Along with the code in the repository, you can download the colab notebooks here :
 - [Get fasttext embeddings](https://colab.research.google.com/drive/1LoW4-OHA8a3HQ1vj8ge3Bmjfky1h5nvb)
-- [Model for fasttext](https://colab.research.google.com/drive/1AkZxv-3wb2kY71cHYoUo3huIe2MnfqKo)
-- [Model for Infersent](https://colab.research.google.com/drive/1xe5XhRoN_UjLB-gaWpY8z8r3DDSvd9s1)
+- [Model for fasttext](https://colab.research.google.com/drive/1Z5O4f4HwO9nIqav1IohP4GZUk184wS83)
+- [Model for Infersent](https://colab.research.google.com/drive/1THULtJaG_VDhLjyehaSsjSlYqL4326Nw)
 
 ## Evaluation scores
 
